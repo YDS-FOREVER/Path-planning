@@ -1,3 +1,19 @@
+#own：
+这个工程环境按照很简单,依赖环境主要是这个文章后面的那几个。
+仿真环境是依赖Unity3D.这个再unbuntu上按照的流程是：
+- a.下载linux的unity hub,然后双击运行，接着登录已经激活过的账号即可完成激活。
+- b.按照unity3D,有两种方法：
+第一、linux版本的在官网是没有提供的，需要到https://forum.unity.com/threads/unity-on-linux-release-notes-and-known-issues.350256/
+去下载，在2017版本前的都是有deb包的，在之后的都是通过下载下载【Linux Download Assistant】进行下载按照包的。直接双击运行即可，如果闪退，则是由于执行权限不够，解决方法：
+https://www.reddit.com/r/Unity3D/comments/7lvskb/is_there_any_way_to_get_the_editor_for_linux/  (需要科学上网)，给assistant添加执行权限。
+第二、是直接使用unityhub进行添加按照，不过这种按照速度比较慢。推荐使用第一种。
+
+注意点：
+1.千万不要尝试再Windows上去调通，因为基本没有调通的希望，其依赖很多都需要再wins上下载源码，然后进行生成依赖库，这个会崩溃的。自己调试了N天,没结果。
+而再ubuntu上一下子就弄好了
+2.千万不要在虚拟机上，因为unity3d安装完后执行会闪退。
+
+
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
 
